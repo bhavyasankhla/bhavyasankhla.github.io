@@ -7,29 +7,40 @@
     <title>Bhavya Sankhla - Software Engineer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
         }
 
         header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 30px 0;
             text-align: center;
-            background-color: #333;
-            padding: 20px;
-            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
         }
 
         section {
-            margin: 20px 0;
-        }
-
-        h1 {
-            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
 
         h2 {
-            color: #555;
+            color: #343a40;
         }
 
         ul {
@@ -43,14 +54,16 @@
 
         footer {
             text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: #ffffff;
         }
     </style>
 </head>
 
 <body>
+
+    <img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=Bhavya Sankhla&fontSize=90" />
 
     <header>
         <h1>Bhavya Sankhla</h1>
@@ -62,7 +75,7 @@
         <ul>
             <li>Location: Vancouver, BC, Canada</li>
             <li>Email: bhavya_sankhla@sfu.ca</li>
-            <li>LinkedIn: [Your LinkedIn Profile]</li>
+            <li>LinkedIn: https://www.linkedin.com/in/bhavya-sankhla-b4ab5b88/</li>
             <li>Cell: +1(604) 354-4473</li>
         </ul>
     </section>
@@ -78,21 +91,59 @@
 
     <section>
         <h2>Technical Work Experience</h2>
-        <!-- Include your work experience here -->
+        WORKSAFEBC,  INNOVATION AND SERVICES 	        			                Vancouver, BC, Canada
+Software Engineer co-op			 	   			   May 2023 – December 2023
+	Enhanced the accuracy of workplace incident classification BERT by leveraging the OpenAI GPT-4 LLM
+	Automated deduplication of daily scraped news by utilizing text embeddings in a vector database. 
+	Created ChatGPT powered private documents chatbot using LangChain with Pinecone vector DB
+	Developed Natural Language to SQL query Streamlit Python app using OpenAI ChatCompletion API
+
+ORACLE										              Bengaluru, India
+Senior Member of Technical Staff                      			 	   June 2020 – September 2022
+	Developed Enterprise Analytics Data Pipeline to process Oracle Analytics Cloud (OAC) user events to
+analyse user behaviour. Dashboard metrics provide insights on DAU, MAU and other usage adoption.
+	Developed Global Collector microservice for Cloud Product Analytics (CP360) which uses the Boomerang JS library to monitor end-user performance by capturing client-side metrics.
+	Successfully lead the effort to move all Spring Boot microservices to dedicated Docker images.
+	Integrated Oracle Key Management Service (KMS) to manage user credentials within an application.
+	Implemented Apache Spark Dataflow to collect data from Oracle Fusion in distributed data pipeline.
+Member of Technical Staff                      			 	      		May 2018 – June 2020
+	Developed Fusion Analytics Warehouse (FAW), which includes backend development on Java 8 using SpringBoot framework, front-end development for FAW-Operations UI on Oracle JET (UI framework).
+	Implemented a Machine Learning driven SLA auditor which predicts the runtime of ETL jobs and compares them against SLA, to send out notifications ahead of time.
+	Built model on Python (pandas, numpy, fbprohpet, catboost) which auto trains daily with the latest pipeline data to notify for jobs which are running beyond expected time and are expected to fail.
+	Implemented Apache Kafka to receive events from Boomerang JS and store it in a messaging queue.
+	Implemented Quartz Scheduler to schedule and manage ETL activation plan job runs.
+	Developed an application "Job Management Console" using SpringBoot and Oracle JET (UI framework) that is used by DevOps to manage jobs related to Autonomous Data Warehouse (ADW).
+
+PUBLICIS SAPIENT								           Gurugram, India	   
+Software Engineer, Marks and Spencer			     			June 2015 – June 2017
+	Software Engineer for Marks and Spencer e-commerce portal. Created RESTful APIs using Spring MVC.
+
     </section>
 
     <section>
         <h2>Education</h2>
-        <!-- Include your education details here -->
+        Simon Fraser University, Burnaby, BC, Canada	           		    		    	                       CGPA: 3.78
+        Master of Professional Computer Science, Big Data 					       Sep 2022- April 2024
+
+        Delhi Technological University, Delhi, India	           		    		    	                      CGPA: 7.71
+        Bachelor of Technology, Electronics & Communication					       Aug 2011 - May 2015
+
     </section>
 
     <section>
         <h2>Technical Projects</h2>
-        <!-- Include your technical projects here -->
+        VANCOUVER TRANSIT DELAY PREDICTION USING TIME SERIES
+	60% reduction in development time for any future dataset creation for a specific route by creating a framework for fusing GTFS real-time data with static data using Apache Spark, PostgreSQL, Python. 
+	Removed outliers and applied an LSTM model to predict long-term transit delays using Keras, Numpy, Matplotlib, and Pandas libraries with a low MSE loss of 0.02.
+G-PLAY | 
+Trained a LightGCN Pytorch Geometric (PyG) model using Binary Cross-Entropy (BCE) loss.
+	Achieved ROC-AUC score 0.84 for testing. 
+	Developed a playlist recommendation webapp using Python, Flask framework, JS, HTML & CSS.
+
     </section>
 
     <footer>
-        &copy; 2023 Bhavya Sankhla | Designed by [Your Name]
+        &copy; 2023 Bhavya Sankhla | Designed by Bhavya
     </footer>
 
 </body>
